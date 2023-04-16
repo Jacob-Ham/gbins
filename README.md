@@ -4,14 +4,13 @@ This Python script allows you to fetch the GTFOBins (https://gtfobins.github.io/
 ## Installation
 
 Clone this repository or download the gbins.py file.
-Install the required dependencies using pip:
-```bash
-git clone https://github.com/Jacob-Ham/gbins.git
-pip install requests beautifulsoup4 rich
-```
 Run the shell script located in /scripts to make the script executable and copy it to /usr/bin:
 
 ```bash
+git clone https://github.com/Jacob-Ham/gbins.git
+cd gbins
+pip install -r requirements.txt
+cd scripts
 sudo bash install.sh  
 ```
 ## Usage
@@ -21,7 +20,7 @@ Once you have installed the script and its dependencies, you can run the script 
 ```bash
 gbins <command>
 ```
-Replace <command> with the command-line tool you want to fetch GTFOBins for. For example, to fetch GTFOBins for the 7z tool, run:
+Replace <command> with the binary you want to fetch GTFOBins for. For example, to fetch GTFOBins for the 7z tool, run:
 ```bash
 gbins 7z
 ```

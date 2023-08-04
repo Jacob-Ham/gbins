@@ -10,8 +10,7 @@ Run the shell script located in /scripts to make the script executable and copy 
 git clone https://github.com/Jacob-Ham/gbins.git
 cd gbins
 pip install -r requirements.txt
-cd scripts
-sudo bash install.sh  
+sudo /usr/bin/chmod u+x gbins.py && /usr/bin/sudo /usr/bin/cp -p gbins.py /usr/bin/gbins
 ```
 ## Usage
 

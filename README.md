@@ -4,7 +4,6 @@ This Python script allows you to fetch the GTFOBins (https://gtfobins.github.io/
 ## Installation
 
 Clone this repository or download the gbins.py file.
-Run the shell script located in /scripts to make the script executable and copy it to /usr/bin:
 
 ```bash
 git clone https://github.com/Jacob-Ham/gbins.git
